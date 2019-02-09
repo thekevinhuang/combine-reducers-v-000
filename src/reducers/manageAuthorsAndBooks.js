@@ -17,12 +17,12 @@ function booksReducer (state = [], action) {
     case "REMOVE_BOOK":
       idx = state.books.indexOf(action.id);
       return [...state.slice(0, idx),...state.slice(idx + 1)]
-      
+
     default:
       return state
     }
 }
-  
+
 
     case "ADD_AUTHOR":
         return {
