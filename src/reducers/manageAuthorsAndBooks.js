@@ -19,10 +19,10 @@ function booksReducer (state = [], action) {
       return [...state.slice(0, idx),...state.slice(idx + 1)]
     default:
       return state
-    
+
     }
 }
-  
+
 
     case "ADD_AUTHOR":
         return {
